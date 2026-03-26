@@ -16,6 +16,8 @@ I focus on the hard product problems in AI: not "can the model do this?" but **"
 
 **[Travel Creative Agent](https://github.com/jianizhang123-creator/travel-creative-agent)** — A 5-agent pipeline for generating platform-specific travel marketing creatives with cultural localization, A/B test design, and a persistent memory system that learns from user feedback.
 
+**[LLM Eval Judge](https://github.com/jianizhang123-creator/llm-eval-judge)** — LLM-as-a-Judge quality evaluation system that distinguishes user preferences from model errors, builds a structured error knowledge base, and generates prompt optimization insights. Turns user corrections into a data flywheel.
+
 **[Smart Bill Parser](https://github.com/jianizhang123-creator/smart-bill-parser)** — An interactive prototype for intelligent bill category matching. Explores a rule-first, LLM-second approach — validating that deterministic matching handles 91% of cases before spending tokens on AI.
 
 ## How I Think About AI Products
@@ -25,6 +27,7 @@ I focus on the hard product problems in AI: not "can the model do this?" but **"
 - **Silence is a feature** — the best AI interaction is sometimes no interaction
 - **Build memory, not just generation** — stateless AI tools hit a ceiling; learning systems compound
 - **Autonomy needs oversight** — the best agent proposes, the human decides, the system learns
+- **Evaluation > Generation** — knowing if your model is wrong matters more than making it faster
 
 ## Tech & Tools
 
